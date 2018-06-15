@@ -1,0 +1,29 @@
+{
+  "name": "egg-jsonschema",
+  "version": "0.0.1",
+  "description": "jsonschema validate plugin for egg",
+  "eggPlugin": {
+    "name": "jsonschema"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "validator",
+    "jsonschema"
+  ],
+  "dependencies": {
+    "jsonschema": "^1.2.4"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frontdog/egg-jsonschema"
+  },
+  "bugs": "https://github.com/frontdog/egg-jsonschema/issues",
+  "homepage": "https://github.com/frontdog/egg-jsonschema",
+  "author": "frontdog",
+  "license": "MIT"
+}
