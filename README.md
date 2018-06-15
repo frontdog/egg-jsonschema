@@ -1,4 +1,4 @@
-# egg-validate
+# egg-jsonschema
 
 基于 [jsonschema](https://github.com/tdegrunt/jsonschema) 提供数据校验方法。
 
