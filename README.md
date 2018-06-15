@@ -19,7 +19,7 @@ $ npm i egg-jsonschema --save
 
 ```js
 // {app_root}/config/plugin.js
-exports.validate = {
+exports.jsonschema = {
   enable: true,
   package: 'egg-jsonschema',
 };
@@ -36,10 +36,12 @@ exports.validate = {
 const Controller = require('egg').Controller;
 
 const createSchema = {
-  id: 'string',
-  name: {
-    type: 'string',
-    required: true
+  type: 'object',
+  properties: {
+    name: {
+      type: 'string',
+      required: true
+    }
   }
 };
 
